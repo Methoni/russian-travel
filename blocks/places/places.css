@@ -19,7 +19,13 @@
 
 @media screen and (max-width: 767px) {
   .places {
-    width: 100%;
+    width: 93.75%;
     padding: 64px 0 66px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .places {
+    width: 100%;
   }
 }

@@ -1,7 +1,6 @@
 .place {
   display: grid;
   grid-template-columns: fit-content(460px) fit-content(484px);
-  /* grid-template-columns: minmax(460px, max-content) minmax(484px, max-content); */
   grid-template-areas:
     "title website"
     "image text";

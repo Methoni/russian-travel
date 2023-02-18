@@ -16,9 +16,21 @@
 
 @media screen and (max-width: 767px) {
   .place__title {
-    font-size: 32px;
+    font-size: 5.5vw;
     line-height: 1.09;
-    max-width: 288px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__title {
+    font-size: 32px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .place__title {
     margin: auto;
   }
 }

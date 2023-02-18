@@ -6,7 +6,18 @@
 
 @media screen and (max-width: 767px) {
   .place__website {
-    width: 288px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__website {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .place__website {
     margin: auto;
   }
 }
